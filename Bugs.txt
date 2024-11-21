@@ -1,0 +1,215 @@
+Bug ID: 001
+Test Case Number: 9
+Title: Issue with automatic email filling and inactive Sign-Up button
+Severity: High
+Priority: High
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+After entering the email in the "Email" field during the sign-up process, the email field is automatically populated with the email address again, instead of allowing the user to fill in a password manually. Additionally, after clicking the "Sign Up" button, the confirmation popup appears, but it remains inactive and does not provide any feedback or further action.
+
+Steps to Reproduce:
+Go to the Sign Up page.
+Fill in the Email field with "alex_kr@abv.bg".
+Notice that the Password field is automatically filled with the email instead of allowing the user to manually input a password.
+Enter the Password as "password123".
+Click on the Sign Up button.
+Observe that the confirmation popup appears but remains inactive.
+Expected Behavior:
+The Email field should only be filled once, and the Password field should remain empty for the user to fill.
+Clicking the Sign Up button should trigger a confirmation message or successful registration process.
+The confirmation popup should be interactive, allowing the user to proceed.
+Actual Behavior:
+The Email field is automatically filled with the email address again, overriding the user's input.
+After clicking the Sign Up button, the confirmation popup appears but remains inactive.
+
+https://app.birdeatsbug.com/XCn9by-j6ARwHslT371BAs5nuT6isrd-TBGJx6MENGtf
+…………………………………………………………………………………………………………………………………………………………………………………………………………………..
+
+Bug ID: 002
+Test Case Number: 10
+Title: "GET THE APP" Button Triggers Sign-Up Popup Instead of Starting Download
+Severity: Medium 
+Priority: Medium 
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+When clicking on the "GET THE APP" button, instead of starting the download process, a Sign-Up popup appears. This behavior is incorrect, as the expected behavior is for the app download to start directly upon clicking the "GET THE APP" button.
+
+Steps to Reproduce:
+Go to the website's main page.
+Click the "GET THE APP" button.
+Observe that instead of initiating the download, a Sign-Up popup appears.
+Expected Behavior:
+Clicking on the "GET THE APP" button should trigger the download process for the app, either downloading an APK (for Android) or an executable (for another platform).
+
+Actual Behavior:
+Clicking on the "GET THE APP" button triggers a Sign-Up popup, preventing the download from starting.
+
+https://app.birdeatsbug.com/dcyMX0q0tW43kj4n6L5jnXwtFTmnPZBZfK0A22q68sBF
+
+
+…………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………..
+Bug ID: 003
+Test Case Number: 11
+Title: "WATCH VIDEO" Button Does Not Trigger Video Playback
+Severity: High
+Priority: Medium
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+When clicking the "WATCH VIDEO" button, nothing happens. The video playback does not start, and no further actions are triggered. This issue prevents users from accessing video content on the site.
+
+Steps to Reproduce:
+Go to the farmer site.
+Locate and click on the "WATCH VIDEO" button.
+Observe that no video playback is initiated, and no other actions occur.
+Expected Behavior:
+Clicking the "WATCH VIDEO" button should trigger the video player and begin playback of the relevant video content.
+
+Actual Behavior:
+Clicking the "WATCH VIDEO" button results in no action. No video is played, and no feedback is provided to the user.
+
+https://app.birdeatsbug.com/B2dfdqKTgT3wovtUGmFLdje0M0ybx-E1lljpDagkatD6
+………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………..
+Bug ID: 004
+Test Case Number: 12
+Title: "VISIT" Button Is Inactive and Does Not Respond When Clicked
+Severity: High
+Priority: High 
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+When clicking on the "VISIT" button in the "Many types of components to customize" section, nothing happens. The button appears inactive and does not trigger any response or action.
+
+Steps to Reproduce:
+Go to the farmer site.
+Scroll to the "Many types of components to customize" section on the page.
+Locate the "VISIT" button on any card in that section.
+Click on the "VISIT" button.
+Observe that no action occurs, and the button appears inactive.
+Expected Behavior:
+Clicking on the "VISIT" button should open the associated link or navigate the user to the relevant page or section.
+
+Actual Behavior:
+Clicking the "VISIT" button does not trigger any action. The button remains inactive and unresponsive.
+
+https://app.birdeatsbug.com/Sw6ORnjrRFCvNfjybtDQWIf6N5DgRhBez1PWiVXhsM2j
+…………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………..
+Bug ID: 005
+Test Case Number: 13
+Title: Plan's Elements Are Inactive and Non-Clickable
+Severity: High
+Priority: High 
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+The plan's elements on the pricing page are completely inactive. Despite being visible, the buttons on each element do not respond to clicks, preventing users from interacting with the pricing plans.
+
+Steps to Reproduce:
+Go to the pricing page on the farmer site.
+Locate the plan's elements section containing the products.
+Notice the buttons on each plan element.
+Attempt to click on the buttons for any of the plan elements.
+Observe that the buttons do not respond to clicks and are inactive.
+Expected Behavior:
+The buttons on each plan's element should be clickable and trigger the relevant action or display additional information about the selected plan.
+
+Actual Behavior:
+The buttons on the plan's elements are inactive. Clicking on them does not trigger any actions or provide any feedback.
+
+https://app.birdeatsbug.com/XoMrFluwAH18ceSkSfwwxaNSJTpEGP2q5EE-GrjZn6Ho
+…………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………….
+
+
+Bug ID: 006
+Test Case Number: 14
+Title: "SIGN UP" Button at the bottom of the site Is Clickable, But No Action Occurs After Click
+Severity: Medium
+Priority: Medium
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+The "SIGN UP" button at the bottom of the site is clickable, but no action is triggered when it is clicked. After clicking the button, the expected behavior (such as displaying a form or submitting the user data) does not occur, and no feedback is given to the user.
+
+Steps to Reproduce:
+Scroll to the bottom of the page on the farmer site.
+Locate the "SIGN UP" button in the subscribe section.
+Enter the email "alex_kr@abv.bg" in the provided field.
+Click on the "SIGN UP" button.
+Observe that nothing happens, and no action is triggered.
+Expected Behavior:
+Clicking the "SIGN UP" button should either:
+
+Submit the user information and show a confirmation message.
+Open a registration form or trigger the relevant sign-up action.
+Actual Behavior:
+The "SIGN UP" button is clickable, but no action occurs after clicking. No feedback is given to the user, and the page does not respond.
+
+https://app.birdeatsbug.com/KSZYt9Tvi56g3sde5t-791OhriR91dHw8l64A3kvukQg
+…………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………
+Bug ID: 007
+Test Case Number: 15
+Title: "Update for iOS 16 ->" Button Is Clickable, But No Action Occurs
+Severity: High
+Priority: Medium
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+The "Update for iOS 16 ->" button is clickable, but when clicked, no action occurs. Despite the button being interactive, no download, navigation, or any feedback is provided after the click.
+
+Steps to Reproduce:
+Go to the farmer site.
+Locate the "Update for iOS 16 ->" button at the top of the page.
+Click on the "Update for iOS 16 ->" button.
+Observe that no action occurs after clicking the button.
+Expected Behavior:
+Clicking the "Update for iOS 16 ->" button should either:
+
+Trigger a download for the iOS 16 update.
+Redirect to a page with further instructions or content related to the update.
+Actual Behavior:
+The "Update for iOS 16 ->" button is clickable, but after clicking it, no action occurs. No download starts, no page redirects, and no feedback is provided to the user.
+
+https://app.birdeatsbug.com/NM5z3EdnpLk-GnEMmopx6qr3m0mBm9LN1sviObc1pk44
+……………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………..
+
+Bug ID: 008
+Test Case Number: 16
+Title: "Download" Button Not Clickable and Inactive
+Severity: Medium
+Priority: Medium
+Reported By: Alex Krastev
+Date Reported: 21.11.2024
+Environment: Browser Edge
+
+Description:
+The "Download" button is visible but inactive. Despite being present on the page, it does not respond to any clicks, and no download process is initiated.
+
+Steps to Reproduce:
+Go to the farmer site.
+Scroll to the "Multiple pages with unique content" section.
+Locate the "Download" button.
+Attempt to click the "Download" button.
+Observe that the button is unresponsive and does not initiate any action.
+Expected Behavior:
+Clicking the "Download" button should trigger the download process for the content, such as starting a file download or opening a download link.
+
+Actual Behavior:
+The "Download" button is inactive. Clicking on it does not start any download or trigger any action. The button does not respond to user interaction.
+
+https://app.birdeatsbug.com/jRzG5uZ74mRWcHntMcieWviNlL9AbmKQ11RMo5GTchfx

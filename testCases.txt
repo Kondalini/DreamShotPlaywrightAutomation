@@ -1,0 +1,55 @@
+9. Does the "Sign up" functionality work properly?
+Given the Farmer site is loaded,
+When I click on the "Sign up" button,
+And I see the "Sign up" form,
+And I fill in the "Email" field with "alex_kr@abv.bg,"
+And I fill in the "Password" field with "password123,"
+And I click on the "Sign up" button,
+Then I should see a confirmation message for successful registration.
+
+10. Does the "GET THE APP" button work correctly?
+Given the Farmer site is loaded,
+When I see and click on the "GET THE APP" button,
+Then the download process should start.
+
+11. Does the "WATCH VIDEO" button work as expected?
+Given the Farmer site is loaded,
+When I click on the "WATCH VIDEO" button,
+Then the video playback should start.
+
+12. Can the cards in the "Many types of components to customize" section be opened?
+Given the Farmer site is loaded,
+When I scroll to the "Many types of components to customize" section on the components page,
+And I see the "VISIT" button displayed on each card,
+And I click on the "VISIT" button on a random card,
+Then the card should open.
+
+13. Are the buttons in the plan's elements section active?
+Given the Farmer site is loaded,
+When I click on the "Pricing" button,
+And I see the pricing page,
+And I see the "Plan's Elements" products,
+And I see buttons on each element,
+And I try to click on them,
+Then the buttons should be clickable.
+
+14. Does the "Sign Up" button at the bottom of the site work properly?
+Given the Farmer site is loaded,
+When I scroll to the bottom of the page,
+And I see the "Sign Up" button in the subscribe section,
+And I fill in the email field with "alex_kr@avc.bg,"
+And I click on the "Sign Up" button,
+Then an appropriate action should be performed.
+
+15. Does the button "Update for iOS 16 ->" work?
+Given the Farmer site is loaded,
+When I see the "Update for iOS 16 ->" button at the top of the page,
+And I click on it,
+Then an appropriate action should be performed.
+
+16. Does the "Download" button work?
+Given the Farmer site is loaded,
+When I scroll to the "Multiple pages with unique content" section,
+And I see the "Download" button,
+And I click on it,
+Then the download process should start.
